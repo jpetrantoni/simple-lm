@@ -34,6 +34,8 @@ class SimpleLM:
             raise ValueError(f"Unsupported client type: {client_name}")
 
         self.clients[client_name] = client
+        
+        return client
 
     def get_client(self, client_name):
         if client_name in self.clients:
