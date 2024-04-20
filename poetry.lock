@@ -356,13 +356,13 @@ files = [
 
 [[package]]
 name = "exceptiongroup"
-version = "1.2.0"
+version = "1.2.1"
 description = "Backport of PEP 654 (exception groups)"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "exceptiongroup-1.2.0-py3-none-any.whl", hash = "sha256:4bfd3996ac73b41e9b9628b04e079f193850720ea5945fc96a08633c66912f14"},
-    {file = "exceptiongroup-1.2.0.tar.gz", hash = "sha256:91f5c769735f051a4290d52edd0858999b57e5876e9f85937691bd4c9fa3ed68"},
+    {file = "exceptiongroup-1.2.1-py3-none-any.whl", hash = "sha256:5258b9ed329c5bbdd31a309f53cbfb0b155341807f6ff7606a1e801a891b29ad"},
+    {file = "exceptiongroup-1.2.1.tar.gz", hash = "sha256:a4785e48b045528f5bfe627b6ad554ff32def154f42372786903b7abcfe1aa16"},
 ]
 
 [package.extras]
@@ -608,13 +608,13 @@ files = [
 
 [[package]]
 name = "instructor"
-version = "1.2.1"
+version = "1.2.2"
 description = "structured outputs for llm"
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "instructor-1.2.1-py3-none-any.whl", hash = "sha256:09b7f7ec84780816d64f5080febb982210ce752094f97ddd12058f76695561b7"},
-    {file = "instructor-1.2.1.tar.gz", hash = "sha256:34fed99480352723b8295258d75444a3487f46d8e1fb9f06474a125ae2789318"},
+    {file = "instructor-1.2.2-py3-none-any.whl", hash = "sha256:aff8144a58a29068720e6fdb4ccb5f09c6f72dc0813c100d137747a8f2a2ed03"},
+    {file = "instructor-1.2.2.tar.gz", hash = "sha256:233e35685310bc3511eafe602534497b968712a29faaabbedc3af66a963c75fc"},
 ]
 
 [package.dependencies]
@@ -631,7 +631,8 @@ typer = ">=0.9.0,<1.0.0"
 anthropic = ["anthropic (>=0.23.1,<0.24.0)", "xmltodict (>=0.13.0,<0.14.0)"]
 cohere = ["cohere (>=5.1.8,<6.0.0)"]
 groq = ["groq (>=0.4.2,<0.5.0)"]
-test-docs = ["anthropic (>=0.23.1,<0.24.0)", "cohere (>=5.1.8,<6.0.0)", "diskcache (>=5.6.3,<6.0.0)", "fastapi (>=0.109.2,<0.110.0)", "groq (>=0.4.2,<0.5.0)", "litellm (>=1.0.0,<2.0.0)", "pandas (>=2.2.0,<3.0.0)", "pydantic_extra_types (>=2.6.0,<3.0.0)", "redis (>=5.0.1,<6.0.0)", "tabulate (>=0.9.0,<0.10.0)"]
+mistralai = ["mistralai (>=0.1.8,<0.2.0)"]
+test-docs = ["anthropic (>=0.23.1,<0.24.0)", "cohere (>=5.1.8,<6.0.0)", "diskcache (>=5.6.3,<6.0.0)", "fastapi (>=0.109.2,<0.110.0)", "groq (>=0.4.2,<0.5.0)", "litellm (>=1.0.0,<2.0.0)", "mistralai (>=0.1.8,<0.2.0)", "pandas (>=2.2.0,<3.0.0)", "pydantic_extra_types (>=2.6.0,<3.0.0)", "redis (>=5.0.1,<6.0.0)", "tabulate (>=0.9.0,<0.10.0)"]
 
 [[package]]
 name = "markdown-it-py"
@@ -769,13 +770,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.21.2"
+version = "1.23.2"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.21.2-py3-none-any.whl", hash = "sha256:65f6bed84ecde0fc20e4f3b458000deb775531aa29154ff4d679e937d7e4370d"},
-    {file = "openai-1.21.2.tar.gz", hash = "sha256:7b6e4d59f3686fcd94efdb2ee61052bf6c9dbb58052b5116fc0d75ba7adbf329"},
+    {file = "openai-1.23.2-py3-none-any.whl", hash = "sha256:293a36effde29946eb221040c89c46a4850f2f2e30b37ef09ff6d75226d71b42"},
+    {file = "openai-1.23.2.tar.gz", hash = "sha256:b84aa3005357ceb38f22a269e0e22ee58ce103897f447032d021906f18178a8e"},
 ]
 
 [package.dependencies]
