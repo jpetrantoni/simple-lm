@@ -51,12 +51,9 @@ class SimpleLM:
             raise ValueError(
                 f"Client '{client_name}' not initialized. Please set up the client first."
             )
+            
+    def set_model(self, client_name, model_name):
+        self.models[client_name] = model_name
 
-
-    def get_client(self, client_name):
-        if client_name in self.clients:
-            return self.clients[client_name]
-        else:
-            raise ValueError(
-                f"Client '{client_name}' not initialized. Please set up the client first."
-            )
+    def get_model(self, client_name):
+        return self.models[client_name]
